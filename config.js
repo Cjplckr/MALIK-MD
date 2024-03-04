@@ -6,10 +6,10 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@cluster0.bfc7ce9.mongodb.net/"
 global.port= process.env.PORT || 5000
-global.email = 'akk728492@gmail.com'
+global.email = 'ahmadasaidi475@gmail.com'
 global.github = 'https://github.com/Cjplckr/MALIK-MD'
-global.location = 'Pakistan'
-global.gurl = 'king-md.db' // add your username
+global.location = 'Tanzania'
+global.gurl = 'ahmada-md.db' // add your username
 global.sudo = process.env.SUDO || '255613800989'
 global.devs = '255613800989';
 global.website = 'https://github.com/Cjplckr/MALIK-MD' //wa.me/+91000000000000
